@@ -1,0 +1,152 @@
+a {
+	color: #FF6B6B;
+	cursor: pointer;
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 23px;
+	text-align: left;
+	text-decoration: none;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+.content {
+	background: #FFFFFF;
+	border-radius: 5px;
+	margin: 100px auto 0 auto;
+	max-width: calc(100% - 500px);
+	min-width: 300px;
+	padding: 30px 60px;
+	position: relative;
+	width: calc(100% - 40px - 120px);
+	z-index: 3;
+}
+
+h1 {
+	color: #030303;
+	font-family: "Rubik", sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+	padding-top: 0;
+	text-align: center;
+}
+
+h2 {
+	color: #030303;
+	font-family: "Rubik", sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	letter-spacing: 1px;
+	margin: 0;
+	padding-bottom: 0;
+	padding-top: 20px;
+	text-align: left;
+}
+
+h3 {
+	color: #030303;
+	font-family: "Rubik", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin: 0;
+	padding-bottom: 0;
+	padding-top: 15px;
+	text-align: left;
+}
+
+#header {
+	background: #FFFFFF;
+	display: flex;
+	height: 50px;
+	flex-direction: row;
+	padding: 20px 50px;
+	position: fixed;
+	width: calc(100% - 100px);
+	z-index: 100;
+}
+
+.header-item {
+
+}
+
+.header-image {
+	height: 45px;
+}
+
+li {
+	color: #030303;
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 23px;
+}
+
+#main {
+	margin-bottom: 30px;
+	padding: 90px 50px;
+	position: relative;
+	width: calc(100% - 100px);
+}
+
+p {
+	color: #030303;
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 23px;
+	text-align: left;
+}
+
+table {
+	border-collapse: collapse;
+	margin-top: 30px;
+	width: 100%;
+}
+
+td {
+	border-top: 1px solid #CFCFCF;
+	color: #030303;
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding: 10px 10px;
+	vertical-align: top;
+	/*width: 33%;*/
+}
+
+th {
+	color: #030303;
+	font-family: "Rubik", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding-bottom: 10px;
+	vertical-align: top;
+	width: 33%;
+}
+
+.trapezoid {
+	left: 50px;
+	position: absolute;
+	top: 90px;
+	width: calc(100% - 100px);
+	z-index: 0;
+}
+
+.trapezoid-bottom {
+	left: 50px;
+	position: absolute;
+	bottom: 0px;
+	width: calc(100% - 100px);
+	z-index: 0;
+}
