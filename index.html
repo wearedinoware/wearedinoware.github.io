@@ -1,14 +1,22 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Dinoware</title>
-		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<title>We Are DinoWare</title>
+		<link rel="stylesheet" type="text/css" href="styles/styles.css" />
 		<link rel="icon" type="image/png" href="images/Logo.png" />
+		<script src="scripts/home.js"></script>
 	</head>
 	<body>
+		<div class="row top">
+			<a id="about" onMouseOver="hover(event)" onMouseLeave="reset()">About</a>
+			<a id="work" onMouseOver="hover(event)" onMouseLeave="reset()">Work</a>
+		</div>
 		<div class="centered">
-			<img src="images/Logo.png" />
-			<h1>DINOWARE</h1>
+			<img class="logo large" src="images/LogoWhite.png" />
+		</div>
+		<div class="row bottom">
+			<a id="contact" onMouseOver="hover(event)" onMouseLeave="reset()">Contact</a>
+			<!-- <a id="blog" onMouseOver="hover(event)" onMouseLeave="reset()">Blog</a> -->
 		</div>
 	</body>
 </html>
